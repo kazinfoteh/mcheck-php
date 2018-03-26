@@ -5,6 +5,7 @@
 
 In order to use the library you need to have available one of `CURL` extension or `HTTP_Request2`:
 
+
 For `CURL`:
 
 ```
