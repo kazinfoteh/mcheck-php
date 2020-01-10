@@ -50,7 +50,7 @@ $api = new MCheckRest("secret key here");
 
 //validate a number using "Missed sms method". (type can be : sms)
 
-$response = $api->RequestValidation(array("type" => "sms", "number" => "+number_here"));
+$response = $api->RequestValidation(array("type" => "sms", "phone" => "+number_here"));
 
 //verify a pin for a certain request
 
